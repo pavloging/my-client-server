@@ -1,0 +1,17 @@
+body{
+    font-family: 'Century Gothic';
+    background-color:rgb(255, 253, 248);
+    text-decoration: none;
+}
+body a{
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+@media all and (max-device-width: 970px) {
+    .container{
+        flex-direction: column;
+    }
+}
